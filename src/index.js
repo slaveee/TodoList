@@ -12,7 +12,7 @@ if (container) {
   const root = createRoot(container)
 
   root.render(
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
       <Provider store={store}>
         <App />
       </Provider>,
