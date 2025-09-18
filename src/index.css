@@ -1,0 +1,45 @@
+:root {
+    --colors-white: #fff;
+    --colors-black: #000;
+    --colors-blue-500: #3a7cfd;
+    --colors-navy-850: #494c6b;
+    --colors-navy-900: #25273d;
+    --colors-navy-950: #171823;
+    --colors-gray-50: #fafafa;
+    --colors-gray-300: #d1d2da;
+    --colors-gray-600: #9495a5;
+    --colors-purple-100: #e3e4f1;
+    --colors-purple-300: #c8cbe7;
+    --colors-purple-600: #5b5e7e;
+    --colors-purple-700: #4d5067;
+    --colors-purple-800: #393a4b;
+    --shadows-standart: 0 35px 50px 35px rgba(194, 195, 214, 0.5)
+}
+
+:root {
+    --font-family: "Josefin Sans", sans-serif;
+    --second-family: "Barlow", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    background-color: var(--colors-gray-50);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
